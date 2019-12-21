@@ -1,0 +1,15 @@
+.hero-wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-top: 150px;
+}
+
+.right-section {
+  margin-left: 100px;
+  img {
+    width: 520px;
+  }
+}
