@@ -1,0 +1,7 @@
+<section [ngClass]="setClasses()">
+  <p>
+    <input (change)="toggleChange(todo)" type="checkbox" [checked]="todo.completed">
+    {{ todo.title }}
+    <button (click)="handleDelete(todo)" class="del">X</button>
+  </p>
+</section>
