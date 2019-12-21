@@ -12,4 +12,11 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  rightButtonHandle() {
+    if (window.location.pathname === '/') {
+      return true;
+    }
+    return false;
+  }
+
 }
