@@ -1,7 +1,12 @@
 <nav>
-  <section class="container-fluid navbar-wrapper">
+  <section class="container navbar-wrapper">
     <section class="left-section">
-      <h3>Todos</h3>
+      <a [routerLink]="'/'">
+        <h3>Todos</h3>
+      </a>
+    </section>
+    <section class="right-section">
+      <a [title]="'lets make a todo list'" [routerLink]="'/todos'">Get Started</a>
     </section>
   </section>
 </nav>
