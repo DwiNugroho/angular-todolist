@@ -7,6 +7,7 @@ import { TodosComponent } from './components/todos/todos.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TodosComponent,
     LandingComponent,
     NavbarComponent,
+    NotFoundPageComponent,
   ],
   imports: [
     BrowserModule,

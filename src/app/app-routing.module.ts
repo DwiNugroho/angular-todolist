@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TodosComponent } from './components/todos/todos.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,10 @@ const routes: Routes = [
     path: '',
     component: LandingComponent,
   },
+  {
+    path: '**',
+    component: NotFoundPageComponent,
+  }
 ];
 
 @NgModule({
