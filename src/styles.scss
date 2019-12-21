@@ -8,3 +8,9 @@ body, html {
 a {
   text-decoration: none !important;
 }
+
+@media (max-width: 575px) {
+  body {
+    padding: 0 20px;
+  }
+}
